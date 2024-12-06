@@ -10,7 +10,36 @@
 <body>
 	<h1 id="con"></h1>
 	<div name="page" data-page-name="start">
-		Start page.
+		<h1>欢迎来玩圈叉棋</h1>
+		<hr />
+		<br />
+		<p>
+			你不知道圈叉棋是什么？
+			<br />
+			<a href="javascript:changePage('info');">点我了解更多</a>
+		</p>
+		<br />
+		<p>
+			你知道圈叉棋是什么？
+			<br />
+			那赶紧
+			<br />
+			<button class="start-button">点我开始游戏</button>
+		</p>
+		<br />
+		<p>
+			<h2>游戏设置</h2>
+			<form>
+				棋盘大小：<input name="input-size" value="3" type="number" />
+				<br />
+				先手棋子：
+				圈<input name="input-chess" type="radio" checked />
+				叉<input name="input-chess" type="radio" />
+			</form>
+		</p>
+	</div>
+	<div name="page" data-page-name="info">
+		Info page.
 	</div>
 	<div name="page" data-page-name="play">
 		Play area.

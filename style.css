@@ -1,3 +1,9 @@
+/* 清除默认样式 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
 /* 页面样式 */
 [name="page"] {
 	/* 占全屏 */
@@ -9,4 +15,14 @@
 
 	/* 初始时全部隐藏 */
 	display: none;
+}
+
+/* 着陆页 */
+[data-page-name="start"] {
+	padding: 3em;
+}
+
+.start-button {
+	font-size: x-large;
+	padding: 0.5em;
 }
