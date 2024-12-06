@@ -1,8 +1,12 @@
+/* 页面样式 */
 [name="page"] {
+	/* 占全屏 */
 	position: absolute;
 	top: 0;
 	left: 0;
+	right: 0;
+	bottom: 0;
+
+	/* 初始时全部隐藏 */
 	display: none;
-	height: 100%;
-	width: 100%;
 }
