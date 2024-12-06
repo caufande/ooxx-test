@@ -22,6 +22,16 @@
 	padding: 3em;
 }
 
+/* 介绍页 */
+[data-page-name="info"] {
+	padding: 3em;
+}
+
+/* 介绍页的多媒体内容 */
+[data-page-name="info"] img, [data-page-name="info"] video {
+	height: 20em;
+}
+
 .start-button {
 	font-size: x-large;
 	padding: 0.5em;
